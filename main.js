@@ -15,7 +15,7 @@ the string "Tim"
 // 3.
 // What is `givenName` set to right now?
 givenName = givenName;
-// A:the value givenName
+// A:the value givenName "Tim"
 
 
 // 4.
@@ -46,7 +46,7 @@ math = high - "5";
 var born = 1984;
 var today = 2017;
 var age = today - born;
- console.log("Tim is" + age + "years old")
+ console.log(" Tim is " + age + " years old ")
 
 
 // 8.
@@ -70,7 +70,7 @@ var statement = yourName + " is taking a class at The Iron Yard, my instructor's
 // Use the `=` operator to assign a value to each variable matching the type in the name.
 var myNumber=1;
 var myString="hi";
-var myBoolean="true";
+var myBoolean=true;
 // This one's a little tricky - think carefully about what makes a value "undefined"!
 var myUndefined=undefined;
 // A:
@@ -80,17 +80,17 @@ var myUndefined=undefined;
 
 // 11.
 var x = (false == 0);
-console.log(false)
+console.log(true)
 
 
 // 12.
 var y = (false == "");
-console.log(false)
+console.log(true)
 
 
 // 13.
 var z = (0 == "");
-console.log(false)
+console.log(true)
 
 
 // 14.
@@ -105,7 +105,7 @@ console.log(true)
 
 // 16.
 var c = (undefined == null);
-console.log(false)
+console.log(true)
 
 
 // 17.
@@ -120,17 +120,15 @@ console.log(false)
 
 // 19.
 var f = (NaN == NaN);
-console.log(true)
+console.log(false)
 
 
 // 20.
 // Fix the `if...else` statement below by adding an `if` keyword and conditional expression.
 // Use the variable `thirsty` as part of your conditional expression.
 // A:
-var thirsty = true||false;
-if {(thirsty)
-}
-{
+var thirsty = true;
+if (thirsty){
   console.log("I'm parched!");
 } else {
   console.log("I've had enough to drink.");
@@ -146,7 +144,7 @@ if(x){
 } else {
 	console.log("False!");
 }
-console.log("False!");
+console.log("True!");
 
 
 // 22.
@@ -176,7 +174,7 @@ if(false){
 } else {
 	console.log("False!");
 }
-console.log("True!");
+console.log("False!");
 
 
 // 25.
@@ -185,7 +183,7 @@ if(-5 && 5){
 } else {
 	console.log("False!");
 }
-console.log("False!");
+console.log("True!");
 
 
 // 26.
